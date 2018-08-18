@@ -49,37 +49,15 @@ body a{
     padding: 10px 0px;
 }
 /*----*/
-.itemContainer{
-			width:100%;
-			float:left;
-		}
 
-		.itemContainer div{
-			float:left;
-			margin: 5px 20px 5px 20px ;
-		}
-
-        .item
-         a{
-			text-decoration:none;
-		}
-
-		.cartHeaders{
-			width:100%;
-			float:left;
-		}
-
-		.cartHeaders div{
-			float:left;
-			margin: 5px 20px 5px 20px ;
-		}
+        
 .item_add {
 	color: #fff;
 	border:none;
 }	
-.grid_1 img{
+/* .grid_1 img{
 	margin-bottom:1em;
-}
+} */
 .box_1 {
 	float: right;
 }
@@ -89,9 +67,7 @@ body a{
 	font-weight: 700;
 	margin: 0;
 }
-.drop {
-    margin-top: 10px;
-}
+
 a.simpleCart_empty {
     color: rgba(255, 255, 255, 0.6);
     font-family: 'Lato', sans-serif;
@@ -114,11 +90,7 @@ span.simpleCart_total {
 .box_1 a img {
 	margin: 3px 0 0 10px;
 }
--bar.box {
-    float: left;
-    width: 11%;
-    margin-right: 10%;
-}
+
 .box1{
 	float:left;
 	width:20.5%;
@@ -150,16 +122,7 @@ span.simpleCart_total {
 	position: relative;
 	display: block;
 }
-.features-grids figure figcaption {
-	padding: 2em;
-	color: #fff;
-	font-size: 1.25em;
-	-webkit-backface-visibility: hidden;
-	-moz-backface-visibility: hidden;
-	-o-backface-visibility: hidden;
-	-ms-backface-visibility: hidden;
-	backface-visibility: hidden;
-}
+
 .about-left figure figcaption::before,
 .fcol1 figure figcaption::after {
 	pointer-events: none;
@@ -382,9 +345,6 @@ a.mask {
     padding: 10px 25px;
 }
 
-.prdt{
-	padding:6em 0px;
-}
 
 .single {
 	padding: 3em 0;
@@ -510,12 +470,7 @@ ul.unit li {
     width: 25%;
     float: left;
 }
-ul.cart-header li p,ul.cart-header1 li p,ul.cart-header2 li p{
-    font-size: 11px;
-    line-height: 1.6em;
-    color: #999;
-    margin: 0;
-}
+
 ul.unit li span{
 	display:inline-block;
 	color:#000;
@@ -706,7 +661,7 @@ ul.menu_drop li.item5{
 .menu_drop ul li a {
 	background: #fff;
 	width: 100%;
-	height: 5em;
+	/* height: 5em; */
 	line-height: 1.8em;
 	display: block;
 	position: relative;
@@ -1364,9 +1319,9 @@ figure.effect-bubba p {
 .infor-left:nth-child(3),.infor-left:nth-child(4){
 	margin-top:3.5%;
 }
-h3.ghj {
+/* h3.ghj {
     font-size: 1.55em;
-}
+} */
 .thumb-image {
     width: 220px;
 }
@@ -1411,7 +1366,7 @@ ul.cart-header li span, ul.cart-header1 li span, ul.cart-header2 li span {
 .label {
     font-size: 39%;
 }
-h1.head {
+/* h1.head {
     font-size: 28px;
 }
 h2.head {
@@ -1419,7 +1374,7 @@ h2.head {
 }
 h3.ghj {
     font-size: 1.45em;
-}
+} */
 .account-left {
     width: 100%;
     float: none;
@@ -1446,26 +1401,7 @@ h3.ghj {
 .address:nth-child(1) {
     margin-bottom: 0;
 }
-.contact-right input[type="text"]:nth-child(2) {
-    margin: 0 0 10px 0;
-}
-.contact-right input[type="text"] {
-    width: 100%;
-    margin: 0px 0 10px 0;
-}
-.contact-right textarea {
-    margin: 0;
-    height: 10.7em;
-}
-.submit-btn input[type=submit] {
-    padding: 5px 20px;
-    font-size: 12px;
-    margin: 7px 0 0;
-}
 
-.flex-control-thumbs li {
-    width: 32.6% !important;
-}
 .single-top-right {
     margin-top: 5%;
 }
@@ -1477,13 +1413,6 @@ h3.ghj {
 }
 .available ul li select {
     margin-left: 7%;
-}
-.single-para h2 {
-    font-size: 1.35em;
-}
-.single-para h5 {
-    font-size: 1.7em;
-	padding: 10px 0 6px 0;	
 }
 
 .box {
